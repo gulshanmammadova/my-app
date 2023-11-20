@@ -1,12 +1,11 @@
 import React from 'react'
 
-const PersonalInfo = () => {
+const PersonalInfo = ({info,uni,student}) => {
   return (
     <div>
-      <p>Ad , Soyad : Gulsen Memmedova </p>
-      <p>Yas : 20 </p>
-      <p>Unvan : Baki Seheri, Buzovna qesebesi</p>
-
+      <p>Age:{info}</p>
+      <p>Universitet:{uni}</p>
+      <p>Tehsil Seviyyesi:{student}</p>
 
     </div>
   )

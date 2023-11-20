@@ -1,13 +1,11 @@
-import UserCV from './Components/UserCV ';
+
 import './App.css';
+import Profile from './Components/Profile';
 
 function App() {
   return (
-    <div className='card' >
-      {/* <h3>
-      Now I can create component
-      </h3> */}
-      <UserCV />
+    <div className='' >
+    <Profile/>
     </div>
   );
 }
